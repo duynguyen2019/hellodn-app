@@ -53,11 +53,11 @@ app.layout = html.Div(children=[
         id='flyingdog',
         figure=beer_fig
     ),
-    html.A('Code on Github', href=githublink),
+    html.A('Duy Nguyen', href=githublink),
     html.Br(),
     html.A('Data Source', href=sourceurl),
     ]
 )
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(port = 5500)
