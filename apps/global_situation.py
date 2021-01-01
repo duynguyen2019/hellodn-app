@@ -9,8 +9,7 @@ import dash_bootstrap_components as dbc
 
 from app import app
 
-# needed if running single page dash app instead
-#external_stylesheets = [dbc.themes.LUX]
+
 
 #app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 

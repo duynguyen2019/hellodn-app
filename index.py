@@ -19,7 +19,7 @@ dropdown = dbc.DropdownMenu(
     ],
     nav = True,
     in_navbar = True,
-    label = "Explore",
+    label = "Subjects",
 )
 
 navbar = dbc.Navbar(
@@ -30,7 +30,7 @@ navbar = dbc.Navbar(
                 dbc.Row(
                     [
                         dbc.Col(html.Img(src="/assets/virus.png", height="30px")),
-                        dbc.Col(dbc.NavbarBrand("COVID-19 DASH", className="ml-2")),
+                        dbc.Col(dbc.NavbarBrand("Math Tutoring", className="ml-2")),
                     ],
                     align="center",
                     no_gutters=True,
